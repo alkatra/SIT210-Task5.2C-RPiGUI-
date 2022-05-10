@@ -13,7 +13,7 @@ def window():
 	app = QApplication(sys.argv)
 	win = QMainWindow()
 	win.setGeometry(200,200,300,300)
-	win.setWindowTitle("Test")
+	win.setWindowTitle("LED Choice")
 	ledA = QPushButton('LED A', win)
 	ledB = QPushButton('LED B', win)
 	ledC = QPushButton('LED C', win)
